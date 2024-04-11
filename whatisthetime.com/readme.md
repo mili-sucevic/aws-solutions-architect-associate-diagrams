@@ -4,7 +4,7 @@
 This document provides an architectural overview and setup guide for the deployment of whatsthetime.com on Amazon Web Services (AWS). The solution involves utilising AWS services like Elastic Load Balancer (ELB), Route 53 for DNS management, EC2 instances in multiple availability zones (AZs), Auto Scaling Groups, and reserved instances for cost optimisation.
 
 ## Architecture Diagram:
-![whatisthetime-diagram(1)](https://github.com/mili-sucevic/aws-solutions-architect-associate-diagrams/assets/93227818/bbce15c5-0410-4afd-9876-b867bdc87c53)
+![whatisthetime-diagram(2)](https://github.com/mili-sucevic/aws-solutions-architect-associate-diagrams/assets/93227818/df740f5e-6bed-4eb6-ae79-6d51dd180612)
 
 ### Components and Setup:
 **1. DNS Configuration using Route 53:**
