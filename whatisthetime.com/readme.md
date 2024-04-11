@@ -21,7 +21,7 @@ This document provides an architectural overview and setup guide for the deploym
 
 **3. Multi-AZ EC2 Instances with Auto Scaling:**
 
-**Description:** The deployment encompasses Amazon EC2 instances distributed across multiple Availability Zones (AZs) to mitigate the risk of downtime and enhance resilience against regional outages. These instances are intelligently managed through Auto Scaling Groups, dynamically scaling in response to fluctuating demand while maintaining a predefined minimum capacity for consistent performance.
+**Description:** The deployment encompasses Amazon EC2 instances distributed across multiple Availability Zones (AZs) to mitigate the risk of downtime and enhance resilience against regional outages. These instances are intelligently managed through Auto Scaling Groups, dynamically scaling in response to fluctuating demand while maintaining a predefined minimum capacity for consistent performance. Notably, the m5 instances are privately deployed, ensuring enhanced security and isolation from external threats.
 - Launch EC2 instances in multiple AZs, ensuring they are part of the same VPC as the ELB.
 - Configure security groups to allow necessary inbound traffic.
 - Install and configure the required software on the instances.
